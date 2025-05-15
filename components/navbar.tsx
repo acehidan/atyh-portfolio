@@ -26,7 +26,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="flex justify-center mb-8 sticky top-4 z-10">
+    <header className="flex justify-center mb-4 md:mb-8 sticky top-1 md:top-4 z-10">
       <nav
         className="flex items-center px-6 py-3 rounded-full w-full max-w-3xl
         backdrop-filter backdrop-blur-lg bg-opacity-30
