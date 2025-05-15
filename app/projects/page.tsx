@@ -11,9 +11,9 @@ export default function ProjectsPage() {
       description:
         "The demo focuses on providing a glimpse into the essential features designed to streamline the currently used handwritten parcel order tracking and verification process at Me Me Cosmetics, aiming for faster and more efficient operations through robust management tools and insightful data analysis.",
       technologies: ["Node.js", "MongoDB", "Express.js"],
-      link: "https://github.com/AungThuyeinHein/parcel_tracker_api_demo",
+      buttonLink: "https://github.com/AungThuyeinHein/parcel_tracker_api_demo",
       tab: ["nodejs", "mongodb", "expressjs"],
-      buttonLink: "https://parcel-tracker-api-demo.onrender.com/api-docs/",
+      link: "https://parcel-tracker-api-demo.onrender.com/api-docs/",
     },
   ];
 
