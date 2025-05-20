@@ -16,25 +16,23 @@ export default function HomePage() {
       <section className="pb-5 grid md:grid-cols-[1fr_300px] md:gap-8 md:py-12 min-h-[calc(100vh-180px)] items-center">
         {/* Profile Info - Now on the left */}
         <div className="space-y-6 order-2 md:order-1 mt-5 md:mt-0">
-          <div className="space-y-2">
+          <div className="space-y-5">
             <h1 className="text-3xl md:text-5xl font-semibold md:font-light text-gray-800 dark:text-white">
               Aung Thuyein Hein
             </h1>
-            <h2 className="text-xl text-gray-600 dark:text-gray-300">
-              Principal Backend Developer
-            </h2>
+            <p className="text-md text-gray-600 dark:text-gray-300 mt-10">
+              As a backend developer, my goal is to help build resilient and
+              scalable systems by tailoring architectural solutions to each
+              project's demands.
+            </p>
           </div>
-
-          <p className="text-gray-600 dark:text-gray-300 md:text-lg">
-            I'm a Principal Software Developer specializing in backend
-            development. Blockchain really piques my curiosity!
-          </p>
 
           <div className="border-t border-b border-gray-200 dark:border-gray-700 py-3 md:py-6 my-3 md:my-6">
             <p className="text-gray-600 dark:text-gray-300">
-              <span className="font-medium">Interests:</span> Crypto/blockchain,
-              Domain-driven design, Event-driven architecture, Serverless, AWS,
-              TypeScript, Node.js, SQL/NoSQL
+              Core competency: I build highly performant backend solutions using
+              Node.js (Express, NestJS), Go, and SQL/NoSQL. My focus is on
+              applying the right architectural patterns for tailored systems,
+              and I'm actively learning AI model training.
             </p>
           </div>
 
